@@ -1,0 +1,22 @@
+{
+  "name": "uok-core-javascript",
+  "version": "0.0.1",
+  "description": "Keele Javascript",
+  "main": "gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bearduk/uok-core-javascript.git"
+  },
+  "author": "Chris Beard <c.d.beard@keele.ac.uk>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bearduk/uok-core-javascript/issues"
+  },
+  "homepage": "https://github.com/bearduk/uok-core-javascript#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "time-grunt": "^1.4.0"
+  }
+}
