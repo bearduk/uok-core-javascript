@@ -3,6 +3,7 @@ bower_components
 .tmp
 .sass-cache
 builds
+webpack-compressed.js
 
 ## START NODE LIST
 
