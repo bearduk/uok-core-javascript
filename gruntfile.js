@@ -28,13 +28,25 @@ module.exports = function(grunt) {
             'builds/production/js/concat.min.js': ['builds/production/js/concat.js']
           }
         }
+    },
+
+    // JShint to check for javascript bugs
+    jshint: {
+        all: {
+            src: ['components/js/**/*.js']
+        },
+        options: {
+            jshintrc: true
+        }
     }
 
   }); //initConfig
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask('default', ['concat', 'uglify']);
+
+  grunt.registerTask('default', ['concat', 'uglify', 'jshint']);
   
 }; // wrapper function
